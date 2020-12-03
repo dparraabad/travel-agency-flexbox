@@ -1,0 +1,9 @@
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main__content--card {
+  flex: 0 1 calc(50% - 1rem);
+}

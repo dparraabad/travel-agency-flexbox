@@ -1,0 +1,78 @@
+:root {
+  --font-primary: 'Libre Baskerville', serif;
+  --gray-color: #F2F2F2;
+  --magenta-color: #DB008D;
+  --white-color: white;
+  --blue-color: #008FD1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--gray-color);
+  font-family: var(--font-primary);
+}
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3rem;
+  color: var(--magenta-color);
+}
+
+.main__content--card {
+  background-color: var(--white-color);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.main__content--card img {
+  max-width: 100%;
+}
+
+.content__card--details {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card__details--text {
+  height: 100%;
+}
+
+.card__details--text h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  padding-bottom: 4rem;
+  height: 2rem;
+}
+
+.content__card--details span {
+  color: var(--magenta-color);
+}
+
+.card__details--button {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  padding: .8rem 3rem;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+

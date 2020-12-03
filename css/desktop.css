@@ -1,0 +1,3 @@
+.main__content--card {
+  flex: 0 1 calc(33.3% - 1rem);
+}
