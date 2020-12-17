@@ -1,3 +1,28 @@
+body {
+  max-width: 85vw;
+  margin: 0 auto;
+}
+
+.header {
+  flex-direction: column;
+  flex: 1 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header__menu ul {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero h2 {
+  top: 4rem;
+  left: 3rem;
+  font-size: 3rem;
+}
+
+
 .main__content {
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +31,23 @@
 
 .main__content--card {
   flex: 0 1 calc(50% - 1rem);
+}
+
+
+.main__categories ul li {
+  flex: 1;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+
+div [class ^= 'footer__container--'] {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+div [class ^= 'footer__container--'] h2 {
+  padding: 1.3rem 0;
 }

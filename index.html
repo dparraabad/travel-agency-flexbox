@@ -1,111 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Cards Flexbox</title>
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href="css/tablet.css"
-      media="screen and (min-width: 480px)"
-    />
-    <link
-      rel="stylesheet"
-      href="css/desktop.css"
-      media="screen and (min-width: 768px)"
-    />
-  </head>
-  <body>
-    <main class="container">
 
-      <h2>Últimas Entradas</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Cards Flexbox</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 480px)" />
+  <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 768px)" />
+</head>
 
-      <section class="main__content">
-        
-        <article class="main__content--card">
-          <img src="img/01.jpg" alt="texto entrada" />
-          <div class="content__card--details">
-            <div class="card__details--text">
-              <h3>Tips para viajar con poco presupuesto</h3>
-              <p>Publicado el: <span>19 Julio, 2018</span></p>
-              <p>Por: <span>Blog Viajes</span></p>
-            </div>
+<body>
 
-            <a href="#" class="card__details--button"> Leer más</a>
+  <header class="header">
+    <figure>
+      <img src="./img/logo.png" alt="Logo del Blog de Viajes">
+    </figure>
+
+    <nav class="header__menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <source>
+      <img src="./img/hero.jpg" alt="Hero Photo">
+    </source>
+    <h2>Bienvenido al Blog de Viajes</h2>
+  </section>
+
+  <main class="container">
+
+    <h2>Últimas Entradas</h2>
+
+    <section class="main__content">
+
+      <article class="main__content--card">
+        <img src="img/01.jpg" alt="texto entrada" />
+        <div class="content__card--details">
+          <div class="card__details--text">
+            <h3>Tips para viajar con poco presupuesto</h3>
+            <p>Publicado el: <span>19 Julio, 2018</span></p>
+            <p>Por: <span>Blog Viajes</span></p>
           </div>
-        </article>
 
-        <article class="main__content--card">
-          <img src="img/02.jpg" alt="texto entrada" />
-          <div class="content__card--details">
-            <div class="card__details--text">
-              <h3>Todo lo necesario para tu viaje</h3>
-              <p>Publicado el: <span>19 Julio, 2018</span></p>
-              <p>Por: <span>Blog Viajes</span></p>
-            </div>
-            <a href="#" class="card__details--button"> Leer más</a>
-          </div>
-        </article>
+          <a href="#" class="card__details--button"> Leer más</a>
+        </div>
+      </article>
 
-        <article class="main__content--card">
-          <img src="img/03.jpg" alt="texto entrada" />
-          <div class="content__card--details">
-            <div class="card__details--text">
-              <h3>El equipo necesario para tomar las mejores fotografías</h3>
-              <p>Publicado el: <span>19 Julio, 2018</span></p>
-              <p>Por: <span>Blog Viajes</span></p>
-            </div>
-            <a href="#" class="card__details--button"> Leer más</a>
+      <article class="main__content--card">
+        <img src="img/02.jpg" alt="texto entrada" />
+        <div class="content__card--details">
+          <div class="card__details--text">
+            <h3>Todo lo necesario para tu viaje</h3>
+            <p>Publicado el: <span>19 Julio, 2018</span></p>
+            <p>Por: <span>Blog Viajes</span></p>
           </div>
-        </article>
+          <a href="#" class="card__details--button"> Leer más</a>
+        </div>
+      </article>
 
-        <article class="main__content--card">
-          <img src="img/04.jpg" alt="texto entrada" />
-          <div class="content__card--details">
-            <div class="card__details--text">
-              <h3>Checklist para tu próximo viaje</h3>
-              <p>Publicado el: <span>19 Julio, 2018</span></p>
-              <p>Por: <span>Blog Viajes</span></p>
-            </div>
-            <a href="#" class="card__details--button"> Leer más</a>
+      <article class="main__content--card">
+        <img src="img/03.jpg" alt="texto entrada" />
+        <div class="content__card--details">
+          <div class="card__details--text">
+            <h3>El equipo necesario para tomar las mejores fotografías</h3>
+            <p>Publicado el: <span>19 Julio, 2018</span></p>
+            <p>Por: <span>Blog Viajes</span></p>
           </div>
-        </article>
+          <a href="#" class="card__details--button"> Leer más</a>
+        </div>
+      </article>
 
-        <article class="main__content--card">
-          <img src="img/05.jpg" alt="texto entrada" />
-          <div class="content__card--details">
-            <div class="card__details--text">
-              <h3>Los mejores lugares para visitar este otoño</h3>
-              <p>Publicado el: <span>19 Julio, 2018</span></p>
-              <p>Por: <span>Blog Viajes</span></p>
-            </div>
-            <a href="#" class="card__details--button"> Leer más</a>
+      <article class="main__content--card">
+        <img src="img/04.jpg" alt="texto entrada" />
+        <div class="content__card--details">
+          <div class="card__details--text">
+            <h3>Checklist para tu próximo viaje</h3>
+            <p>Publicado el: <span>19 Julio, 2018</span></p>
+            <p>Por: <span>Blog Viajes</span></p>
           </div>
-        </article>
+          <a href="#" class="card__details--button"> Leer más</a>
+        </div>
+      </article>
 
-        <article class="main__content--card">
-          <img src="img/06.jpg" alt="texto entrada" />
-          <div class="content__card--details">
-            <div class="card__details--text">
-              <h3>Los mejores lugares para visitar con montañas</h3>
-              <p>Publicado el: <span>19 Julio, 2018</span></p>
-              <p>Por: <span>Blog Viajes</span></p>
-            </div>
-            <a href="#" class="card__details--button"> Leer más</a>
+      <article class="main__content--card">
+        <img src="img/05.jpg" alt="texto entrada" />
+        <div class="content__card--details">
+          <div class="card__details--text">
+            <h3>Los mejores lugares para visitar este otoño</h3>
+            <p>Publicado el: <span>19 Julio, 2018</span></p>
+            <p>Por: <span>Blog Viajes</span></p>
           </div>
-        </article>
-      </section>
-      
-    </main>
-  </body>
+          <a href="#" class="card__details--button"> Leer más</a>
+        </div>
+      </article>
+
+      <article class="main__content--card">
+        <img src="img/06.jpg" alt="texto entrada" />
+        <div class="content__card--details">
+          <div class="card__details--text">
+            <h3>Los mejores lugares para visitar con montañas</h3>
+            <p>Publicado el: <span>19 Julio, 2018</span></p>
+            <p>Por: <span>Blog Viajes</span></p>
+          </div>
+          <a href="#" class="card__details--button"> Leer más</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="main__categories">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fa fa-map-pin"></i>
+            Actividades
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-music"></i>
+            Festivales
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-utensils"></i>
+            Restaurantes
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-check"></i>
+            Tips
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer__container">
+      <div class="footer__container--us">
+  
+        <h2>Sobre Nosotros</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vel ea quasi veniam odit nulla delectus esse magni distinctio non tempora, saepe molestias, quisquam, omnis atque harum? Rem, temporibus doloribus.Error facere corporis aut similique sint repellat sunt nam, veniam iure! Culpa, exercitationem hic molestiae et a ratione voluptatum, animi cumque voluptas soluta reiciendis dolor, voluptatibus est. Repellat, magni perferendis.
+        </p>
+      </div>
+  
+      <div class="footer__container--last">
+        <h2>Últimas Entradas</h2>
+        <ul>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
+        </ul>
+      </div>
+  
+      <div class="footer__container--social">
+        <h2>Síguenos</h2>
+        <ul>
+          <li>
+            <a href="http://facebook.com"><span>Facebook</span></a>
+          </li>
+          <li>
+            <a href="http://twitter.com"><span>Twitter</span></a>
+          </li>
+          <li>
+            <a href="http://youtube.com"><span>YouTube</span></a>
+          </li>
+          <li>
+            <a href="http://instagram.com"><span>Instagram</span></a>
+          </li>
+          <li>
+            <a href="http://pinterest.com"><span>Pinterest</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <p>Blog de Viajes, Flexbox 2020 &copy;</p>
+    </div>
+
+  </footer>
+  
+</body>
+
 </html>
